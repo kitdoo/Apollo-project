@@ -1,10 +1,38 @@
 @import "utils.css";
 
+body {
+	font-family: sana-serif;
+}
 
+.block	{
+	background-color:#FFD84C;
+	padding: 20px;
+	color:#000;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.line {
+	border-bottom: 1px solid #000;
+}
+.nav {
+	background-color: #38383A;
+	padding-top: 10px;	
+	padding-bottom: 10px;	
+}
+.slider {
+	background-color: #164680;
+	padding-top: 10px;	
+	padding-bottom: 10px;
+}
 
-
-
-
+.footer {
+	background-color: #38383A;
+	padding-top: 20px;	
+	padding-bottom: 20px;	
+}
 
 /*==========  Desktop First Method  ==========*/
 
