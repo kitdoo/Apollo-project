@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 
 	<!-- Titles -->
-	<title>Document</title>
+	<title>Apollo</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 
@@ -14,13 +14,16 @@
 
 	<!-- Syles -->
 	<link rel="stylesheet" href="libs/normalizecss/normalize.css">
-	<link rel="stylesheet" href="libs/bootstrap4grid/dist/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 
 	<!-- Fonts -->
 	<link rel="stylesheet" href="fonts/notoserif/notoserif.css">
 	<link rel="stylesheet" href="fonts/noto/noto.css">
 	<link rel="stylesheet" href="fonts/als-rubl/als-rubl.css">
+
+
+	<link rel="stylesheet" href="libs/owlcarousel/owl.carousel.css">
 
 </head>
 <body>
@@ -45,9 +48,17 @@
 	<!--//LOGO-->
 
 	<!-- NAVIGATION-->
-	<nav class="nav">
-		<div class="container">
-			<div class="block">Навигация</div>
+	<nav class="navigation">
+		<div id="navigation-toggle" class="navigation__toggle-button">Навигация</div>
+		<div class="container container--mobile-no-padding">
+			<ul>
+				<li><a href="#">главная</a></li>
+				<li><a href="#">как мы работаем</a></li>
+				<li><a href="#">фрилансерам</a></li>
+				<li><a href="#">стартапам</a></li>
+				<li><a href="#">тарифы</a></li>
+				<li><a href="#">контакты</a></li>
+			</ul>
 		</div>
 	</nav>
 	<!--//NAVIGATION-->
@@ -55,7 +66,80 @@
 	<!-- SLIDER-->
 	<div class="slider">
 		<div class="container">
-			<div class="block">Слайдер</div>
+
+			<div id="top-slider" class="owl-carousel">
+
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+						<div class="hidden-xs">
+							<div class="slider__title">
+								Тариф для фрилансеров и небольших сайтов
+							</div>
+							<div class="slider__slogan">
+								Разместите свое портфолио и сайты клиентов. Надежные сервера, отзывчивая техподдержка.
+							</div>
+						</div>
+
+						<div class="visible-xs">
+							<div class="slider__title ">
+								Тариф для фрилансеров
+							</div>
+							<div class="slider__slogan">
+								Надежные сервера, отзывчивая техподдержка.
+							</div>
+						</div>
+
+					</div>
+				</div>	
+
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+						<div class="hidden-xs">
+							<div class="slider__title">
+								Нужен хостинг для стартапа? Вы в правильном месте!
+							</div>
+							<div class="slider__slogan">
+								Начните со специального стартап тарифа. Увеличивайте мощности при необходимости.
+							</div>
+						</div>
+
+						<div class="visible-xs">
+							<div class="slider__title ">
+								Хостинг для стартапа
+							</div>
+							<div class="slider__slogan">
+								Увеличивайте мощноности при необходимости.
+							</div>
+						</div>
+
+					</div>
+				</div>	
+
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+						<div class="hidden-xs">
+							<div class="slider__title">
+								Надежная площадка для высоконагруженных проектов
+							</div>
+							<div class="slider__slogan">
+								Супер мощные сервера, мгновенная масштабируемость, гибкая конфигурация.
+							</div>
+						</div>
+
+						<div class="visible-xs">
+							<div class="slider__title ">
+								Highload площадка
+							</div>
+							<div class="slider__slogan">
+								Супер мощные сервера, мгновенная масштабируемость.
+							</div>
+						</div>
+
+					</div>
+				</div>	
+
+			</div>
+
 		</div>
 	</div>
 	<!--//SLIDER-->
@@ -157,6 +241,8 @@
 
 	<!-- Scripts -->
 	<script src="libs/jquery/jquery-3.4.1.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
