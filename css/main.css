@@ -53,23 +53,8 @@ body {
   font-family: 'Noto Sans', sans-serif;
   min-width: 320px;
 }
-.block {
-  background-color: #FFD84C;
-  padding: 20px;
-  color: #000;
-  font-size: 32px;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 .line {
   border-bottom: 1px solid #eaeff5;
-}
-.footer {
-  background-color: #38383A;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 p {
   font-size: 14px;
@@ -161,7 +146,7 @@ xx и более
   border-radius: 20px;
   height: 26px;
   width: 26px;
-  background-color: #FFC80A;
+  background-color: #ffc80a;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -273,12 +258,12 @@ xx и более
 .button:hover,
 .button:active,
 .button:focus {
-  background-color: #FFC80A;
+  background-color: #ffc80a;
   color: #fff;
   text-decoration: none;
 }
 .button--orange {
-  background-color: #FFC80A;
+  background-color: #ffc80a;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -627,4 +612,40 @@ xx и более
   background-image: url(../img/icons/arrow-orange.png);
   background-repeat: no-repeat;
   background-position: left top;
+}
+.footer {
+  background-color: #252525;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #6C6C6C;
+}
+.footer p {
+  color: #6C6C6C;
+}
+.footer__title {
+  color: #F7F8F9;
+  font-size: 12px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.footer_nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 57px;
+}
+.footer_nav li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+.footer_nav a {
+  color: #6C6C6C;
+  text-decoration: none;
+}
+.footer_nav a:hover {
+  color: #ffc80a;
 }
